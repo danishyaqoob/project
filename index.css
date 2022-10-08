@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    /* border: 1px solid red; */
+    margin-top: 120px;
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+    margin-left: 200px;
+}
+
+.div1{
+    float: left;
+    /* border: 1px solid green; */
+    margin: 150px 0 200px 120px;
+}
+.div1 h3{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 23px;
+    padding-bottom: 5px;
+    letter-spacing: 0.5px;
+    color: rgba(201, 6, 6, 0.836);
+}
+
+.div1-p1{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.774);
+    font-weight: bold;
+}
+
+
+.div1-p2{
+    font-family: sans-serif;
+    font-size: 8px;
+    color: rgba(83, 83, 83, 0.884);
+    font-weight: bold;
+}
+
+
+.btn{
+    color: rgba(255, 255, 255, 0.795);
+    background-color: rgba(184, 6, 6, 0.952);
+    border: none;
+    padding: 5px 13px;
+    font-size: 10px;
+    border-radius: 3px;
+    margin-left: 0;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.div2{
+    float: right;
+    /* border: 1px solid green; */
+    margin-left: 100px;
+}
+
+
+.div2 img{
+    float: right;
+    height: 500px;
+    width: 700px;
+    /* margin-left: 50px; */
+}
+
+
+
+
+/* main section ( 1th main tag ) khatam ha yahan */
+
+
+
+
+
+.section2{
+    /* border: 1px solid green; */
+    margin-top: 8px;
+    background-color: rgba(192, 192, 192, 0.37);
+    padding-bottom: 2%;
+    padding-top: 1%;
+
+}
+
+.section2-div1{
+    /* border: 1px solid red; */
+    margin: 140px 0 0 300px;
+}
+
+.section2-div1 h2{
+    font-family: Arial, Helvetica, sans-serif ,sans-serif;
+    color: rgb(255, 30, 0);
+}
+
+
+
+.section2-div2{
+    border: 0.1px solid rgba(192, 192, 192, 0);
+    margin: 120px 600px 240px 310px;
+    display: flexbox;
+}
+
+
+.image1{
+    background: url(/Rectangle\ 302.png);
+    height: 120PX;
+    width: 130PX;
+    border-radius: 3px;
+    float: left;
+    /* margin-right: 10px; */
+}
+
+.linear{
+    background: linear-gradient(rgba(247, 78, 26, 0.856),rgba(225, 0, 0, 0.705));
+    height: 120PX;
+    width: 130PX;
+    border-radius: 3px;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px rgba(207, 204, 204, 0.699);
+}
+.word1{
+    color: rgba(240, 58, 3, 0.856);
+    background-color: white;
+    /* padding: 0 10px 6px 5px; */
+    text-align: center;
+    /* padding-left: 3px; */
+    padding-top: 1px;
+    margin-top: 5px;
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: sans-serif;
+}
+.dd{
+    margin-top: 45px;
+}
+
+.i{
+    padding: 32px 0 0 17px;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.767);
+    /* border: 1px solid green; */
+    display: flex;
+    margin-bottom: 50px;
+    display: inline;
+}
+
+
+.linear h4{
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 6px;
+    text-align: center;
+    display: inline-block;
+}
+.h4{
+    /* border: 1px solid green; */
+    display: flexbox;
+    /* padding-right: 20px; */
+    float: left;
+}
+
+
+
+
+/* list item start is here  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+
+.divforlists{
+    /* border: 1px solid red; */
+    height: 270px;
+}
+
+.divforlists1{
+    /* border: 1px solid green; */
+    float: left;
+    margin: 45px 0 0 310px;
+}
+.divforlists1 h5{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgba(241, 34, 34, 0.822);
+}
+ ul{
+    margin-top: 20px;
+ }
+ul li{
+    list-style: none;
+    margin-bottom: 11px;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.685);
+    letter-spacing: none;
+}
+
+.divforlists2{
+    /* border: 1px solid green; */
+    float: left;
+    margin: 45px 0 0 130px;
+}
+.divforlists2 h5{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgba(241, 34, 34, 0.822);
+}
+
+
+
+/* footer */
+
+
+
+
+.foot{
+    /* border: 1px solid green; */
+    height: 10px;
+    margin-bottom: 30px;
+}
+
+.left{
+    float: left;
+    /* border: 1px solid red; */
+    margin-left: 315px;
+    display: flex ;
+}
+
+.cr{
+    border: 1px solid black;
+    font-size: 9px;
+    /* padding-top: 3px; */
+    border-radius: 7px;
+    height: 12px;
+    width: 10px;
+    margin-top: 4px;
+    padding-left: 1px;
+    margin: 2px 5px 0 5px;
+    
+}
+
+.left p{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.foot-p{
+text-transform: uppercase;
+}
+
+.google{
+    margin-left: 20px;
+    color: rgba(223, 7, 7, 0.973);
+    font-size: 14px;
+    margin-top: 2px;
+    border-radius: 20px;
+    /* border: 3px solid rgba(192, 192, 192, 0.26); */
+    /* padding: 5px; */
+    /* padding-top: 6px; */
+}
+.facebook{
+    margin-left: 20px;
+    color: rgba(0, 60, 255, 0.897);
+
+}
